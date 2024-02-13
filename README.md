@@ -1,16 +1,48 @@
-code for making your own webpage
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Information</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial;
+        }
+        a {
+            color: white;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .social-media {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .social-media img {
+            width: 50px; /* Adjust based on your preference */
+            height: auto;
+        }
+    </style>
 </head>
 <body>
     <h1>Contact Information</h1>
-    <p>Twitter: <a href="https://twitter.com/your_twitter_id" target="_blank">@your_twitter_id</a></p>
-    <p>WhatsApp: <a href="https://wa.me/your_whatsapp_number" target="_blank">+YourWhatsAppNumber</a></p>
-    <p>Instagram: <a href="https://instagram.com/your_instagram_id" target="_blank">@your_instagram_id</a></p>
-    <p>Email: <a href="mailto:your_email@example.com">your_email@example.com</a></p>
+    <div class="container">
+        <div class="social-media">
+            <img src="in.WEBP" alt="LinkedIn">
+            <p>Linkedin:<a href="https://www.linkedin.com/in/varad-sarda-5b525b287" target="_blank">@varad_sarda</a></p>
+            <img src="inst.WEBP" alt="Instagram">
+            <p>Instagram:<a href="https://instagram.com/varad_1305" target="_blank">@varad_1305</a></p>
+        </div>
+        <div class="social-media">
+            <img src="wp.JPG" alt="WhatsApp"><br>
+            <p>WhatsApp:<a href="https://wa.me/7875912744" target="_blank">+91 7875912744</a></p>
+            <img src="gm.WEBP" alt="Gmail">
+            <p>Email:<a href="mailto:your_email@varadsarda1305.com">your_email@varadsarda1305.com</a></p>
+        </div>
+    </div>
 </body>
 </html>
