@@ -6,12 +6,12 @@
     <title>Contact Information</title>
     <style>
         body {
-            background-color: black;
+            background-color: white;
             color: white;
             font-family: Arial;
         }
         a {
-            color: white;
+            color: black;
         }
         .container {
             display: flex;
